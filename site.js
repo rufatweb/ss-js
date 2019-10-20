@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+=======
+  //
+  // function getContacts() {
+  //
+  // fetch("http://localhost:3000/contacts")
+  // .then(res => res.json())
+  // .then(console.log)
+  //
+  // }
+
+>>>>>>> d4d54e1e9527f32fa35b079026f84225781def51
 
 
 var pageList = [];
@@ -26,6 +38,18 @@ function previousPage() {
     loadList();
 }
 
+<<<<<<< HEAD
+=======
+function firstPage() {
+    currentPage = 1;
+    loadList();
+}
+
+function lastPage() {
+    currentPage = numberOfPages;
+    loadList();
+}
+>>>>>>> d4d54e1e9527f32fa35b079026f84225781def51
 
 function loadList() {
     var begin = ((currentPage - 1) * numberPerPage);
