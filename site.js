@@ -1,12 +1,3 @@
-  //
-  // function getContacts() {
-  //
-  // fetch("http://localhost:3000/contacts")
-  // .then(res => res.json())
-  // .then(console.log)
-  //
-  // }
-
 
 
 var pageList = [];
@@ -34,7 +25,6 @@ function previousPage() {
     currentPage -= 1;
     loadList();
 }
-
 
 
 function loadList() {
